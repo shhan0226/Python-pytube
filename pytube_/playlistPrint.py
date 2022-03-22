@@ -1,6 +1,6 @@
 from pytube import Playlist
 
-p = Playlist('https://www.youtube.com/playlist?list=PLRrUisvYoUw9-cTYgkbTbr9f9CpbGdq4F')
+p = Playlist('https://www.youtube.com/playlist?...')
 
 print(f'Downloading: {p.title}')
 

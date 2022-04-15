@@ -17,7 +17,7 @@ for video in p.video_urls:
 #    	    print(i, " : ", stream)
         for i, stream in enumerate(yt.streams.filter(progressive=True, file_extension="mp4", type="video").all()):
             print(i, " : ", stream)
-        yt.streams.get_by_itag(22).download('/data/Youtube/haru/' + file_name)
+        yt.streams.get_by_itag(22).download('/data/Youtube/' + file_name)
     except:
         print("download Error...                           ")
         print(video)

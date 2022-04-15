@@ -19,10 +19,10 @@ for line in lines:
             print(i, " : ", stream)
         if i == 1:
             print("itag:22")
-            yt.streams.get_by_itag(22).download(output_path='/data/Youtube/haru/', filename_prefix=str(num_)+'_')
+            yt.streams.get_by_itag(22).download(output_path='/data/Youtube/', filename_prefix=str(num_)+'_')
         else:
             print("itag:18")
-            yt.streams.get_by_itag(18).download(output_path='/data/Youtube/haru/', filename_prefix=str(num_)+'_')
+            yt.streams.get_by_itag(18).download(output_path='/data/Youtube/', filename_prefix=str(num_)+'_')
     except:
         print("<< ERROR.........")
 

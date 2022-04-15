@@ -11,4 +11,4 @@ for i, stream in enumerate(yt.streams.all()):
     print(i, " : ", stream)
                 
 num = input("itag:")
-yt.streams.get_by_itag(num).download('/data/Youtube/haru/')
+yt.streams.get_by_itag(num).download('/data/Youtube/')

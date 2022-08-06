@@ -1,2 +1,4 @@
 #python -m pip install pytube
+
+sudo apt install git -y
 python3 -m pip install --upgrade "git+https://github.com/nficano/pytube.git"
